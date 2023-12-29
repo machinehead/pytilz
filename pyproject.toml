@@ -9,6 +9,7 @@ packages = [{include = "pytilz", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+respx = "*"
 
 
 [tool.poetry.group.dev.dependencies]
@@ -33,3 +34,7 @@ testpaths = ["tests"]
 
 [tool.isort]
 profile = "black"
+
+
+[tool.poetry.plugins."pytest11"]
+"pytilz" = "pytilz.fixtures"
