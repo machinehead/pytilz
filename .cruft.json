@@ -1,0 +1,17 @@
+{
+  "template": "https://github.com/machinehead/cookiecutter-pylibrary.git",
+  "commit": "da7b3acb81ac40af40576de4222b2640974cfd1a",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "project_name": "Pytilz",
+      "project_slug": "pytilz",
+      "package_name": "pytilz",
+      "author_name": "Ilya Nekhay",
+      "author_email": "nekhayiv@gmail.com",
+      "min_python_version": "3.10",
+      "_template": "https://github.com/machinehead/cookiecutter-pylibrary.git"
+    }
+  },
+  "directory": null
+}
