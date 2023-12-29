@@ -9,6 +9,7 @@ packages = [{include = "pytilz", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+# TODO: remove dependency, use respx only when already installed
 respx = "*"
 
 
@@ -19,6 +20,7 @@ pre-commit = "*"
 # Testing
 pytest = "*"
 pytest-cov = "*"
+mypy = "*"
 
 
 [build-system]
