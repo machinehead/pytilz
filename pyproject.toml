@@ -16,6 +16,7 @@ respx = "*"
 [tool.poetry.group.dev.dependencies]
 # Code management
 pre-commit = "*"
+commitizen = "*"
 
 # Testing
 pytest = "*"
